@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Password Generator</h2>
+
+    <input type="text" id="result" readonly>
+    <button onclick="copyToClipboard()">Copy</button><br><br>
+    
+    <label for="lengthRange">Password Length: <span id="lengthDisplay">12</span></label><br>
+    <input type="range" id="slider" min="6" max="32" ><br><br>
+    
+    <button onclick="generatePassword()">Generate Password</button><br><br>
+
+    <label>Include Letters<input type="checkbox" id="includeLetters"> </label><br>
+    <label>Include Numbers<input type="checkbox" id="includeNumbers"> </label><br>
+    <label>Include Symbols<input type="checkbox" id="includeSymbols"> </label><br><br>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
