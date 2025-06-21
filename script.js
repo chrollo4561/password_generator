@@ -2,6 +2,8 @@ const slider = document.getElementById("slider");
 const lengthDisplay = document.getElementById("lengthDisplay");
 const resultBox = document.getElementById("result");
 
+lengthDisplay.textContent = slider.value;
+
 slider.addEventListener("input", () => {
 lengthDisplay.textContent = slider.value;
 });
