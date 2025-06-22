@@ -1,29 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.box {
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  text-align: center;
-  width: 17cm;
+.box{
+    background-color: rgb(233, 233, 233);
+    border: black solid 1px;
+    border-radius: 12px;
+    padding: 1em;
+    text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
-input[type="range"] {
-  width: 10cm;
-}
-
-#result{
+#output{
+    margin: 30px 0 10px 0;
+    height: 1.5em;
+    padding: 5px;
+    border: black solid 1px;
     border-radius: 7px;
-    padding: 2px;
-    min-width: 10cm;
+    box-shadow: 0 0 2px gray;
+    width:9cm;
     text-align: center;
 }
